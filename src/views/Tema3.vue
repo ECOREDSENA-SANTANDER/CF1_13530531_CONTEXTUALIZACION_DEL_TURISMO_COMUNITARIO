@@ -143,14 +143,14 @@
                 th.bg2 Descripción
             tbody
               tr
-                th(rowspan="2") Gestión ambiental y preservación
+                th(rowspan="2").text-izq Gestión ambiental y preservación
                 td Uso responsable de recursos
                 td.text-izq Aprovechamiento adecuado del entorno natural y cultural.
               tr
                 td Conservación y prevención
                 td.text-izq Proteger el patrimonio natural reduciendo los impactos negativos.
               tr
-                th(rowspan="2") Compromiso social y ético
+                th(rowspan="2").text-izq Compromiso social y ético
                 td Equidad
                 td.text-izq Garantizar el acceso justo a oportunidades para todas las personas.
               tr

@@ -31,41 +31,41 @@
       .row.justify-content-center(titulo="Respeto por la cultura y la comunidad ")
         .col-lg-6.mb-2.mb-md-0
           p Valorar y preservar las expresiones culturales y los modos de vida de las comunidades anfitrionas. 
-        .col-lg-5.col-md-8.col-10
+        .col-lg-4.col-md-8.col-10
           figure
             img(src='@/assets/curso/Tema7/1.png', alt='')
       .row.justify-content-center(titulo="Conservación del entorno natural ")
         .col-lg-6.mb-2.mb-md-0
           p Proteger los ecosistemas y recursos naturales que sustentan la actividad turística.
-        .col-lg-5.col-md-8.col-10
+        .col-lg-4.col-md-8.col-10
           figure
             img(src='@/assets/curso/Tema7/2.png', alt='')
       
       .row.justify-content-center(titulo="Uso responsable de los recursos")
         .col-lg-6.mb-2.mb-md-0
           p Gestionar de manera eficiente y sostenible los recursos del territorio.
-        .col-lg-5.col-md-8.col-10
+        .col-lg-4.col-md-8.col-10
           figure
             img(src='@/assets/curso/Tema7/3.png', alt='')
       
       .row.justify-content-center(titulo="Trato digno e inclusivo ")
         .col-lg-6.mb-2.mb-md-0
           p Garantizar el respeto y la inclusión de todas las personas en la experiencia turística.
-        .col-lg-5.col-md-8.col-10
+        .col-lg-4.col-md-8.col-10
           figure
             img(src='@/assets/curso/Tema7/4.png', alt='')
       
       .row.justify-content-center(titulo="Transparencia en la gestión ")
         .col-lg-6.mb-2.mb-md-0
           p Actuar con honestidad y claridad en todos los procesos organizativos y comerciales.
-        .col-lg-5.col-md-8.col-10
+        .col-lg-4.col-md-8.col-10
           figure
             img(src='@/assets/curso/Tema7/5.png', alt='')
       
       .row.justify-content-center(titulo="Seguridad y bienestar de las personas visitantes ")
         .col-lg-6.mb-2.mb-md-0
           p Asegurar condiciones de seguridad física y emocional durante toda la experiencia.
-        .col-lg-5.col-md-8.col-10
+        .col-lg-4.col-md-8.col-10
           figure
             img(src='@/assets/curso/Tema7/6.png', alt='')
     
@@ -104,14 +104,14 @@
     .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
       .col-lg-10
         PasosA.color-acento-contenido.mb-5(tipo="n")
-          .row
+          .row.justify-content-center.align-items-center
             .col-md-9.mb-4.mb-md-0.col-lg-10
               h3 Fortalecimiento organizativo 
               p Apoyo a la consolidación de organizaciones comunitarias con capacidad de gestionar iniciativas turísticas sostenibles.
             .col-md-3.col-lg-2.col-6
               figure
                 img(src='@/assets/curso/Tema7/1.svg', alt='Texto que describa la imagen')
-          .row
+          .row.justify-content-center.align-items-center
             .col-md-3.col-lg-2.col-6.mb-3
               figure
                 img(src='@/assets/curso/Tema7/3.svg', alt='Texto que describa la imagen')
@@ -120,7 +120,7 @@
               h3.text-izq Formación y capacitación
               p.text-izq Desarrollo de competencias técnicas, administrativas y de servicio al cliente en las comunidades que lideran el turismo.
 
-          .row
+          .row.justify-content-center.align-items-center
             .col-md-8.mb-4.mb-md-0.col-lg-10
               h3 Promoción del turismo sostenible
               p Impulso a prácticas turísticas que protejan el patrimonio natural, cultural y social del territorio.
@@ -129,7 +129,7 @@
                 img(src='@/assets/curso/Tema7/4.svg', alt='Texto que describa la imagen')
     
 
-          .row
+          .row.justify-content-center.align-items-center
             .col-md-3.col-lg-2.col-6.mb-3
               figure
                 img(src='@/assets/curso/Tema7/5.svg', alt='Texto que describa la imagen')
@@ -137,7 +137,7 @@
               h3.text-izq Articulación institucional
               p.text-izq Coordinación entre entidades públicas, privadas y comunitarias para el desarrollo integral del turismo.
 
-          .row
+          .row.justify-content-center.align-items-center
             .col-md-8.mb-4.mb-md-0.col-lg-10
               h3 Conservación del patrimonio
               p Protección y valoración de los activos culturales, naturales y sociales como base de la oferta turística.
@@ -145,7 +145,7 @@
               figure
                 img(src='@/assets/curso/Tema7/6.svg', alt='Texto que describa la imagen')
           
-          .row
+          .row.justify-content-center.align-items-center
             .col-md-3.col-lg-2.col-6.mb-3
               figure
                 img(src='@/assets/curso/Tema7/2.svg', alt='Texto que describa la imagen')

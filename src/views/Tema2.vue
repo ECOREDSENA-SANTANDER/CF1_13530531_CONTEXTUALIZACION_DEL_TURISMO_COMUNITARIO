@@ -29,8 +29,8 @@
           h3.bg4.py-2.w-card-text.text-white ¿Qué es el turismo comunitario?
 
     .row(data-aos="zoom-in-left")
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-primario.p-5
+      .col-md-6.col-lg-3.mb-4.mb-xl-0
+        .tarjeta-numerada.color-primario.p-4.h-100
           .tarjeta-numerada__numero
             .h2 1
           p.text-center 
@@ -38,24 +38,24 @@
           p.text-center Las comunidades planifican y operan la actividad turística.
 
 
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-secundario.p-5
+      .col-md-6.col-lg-3.mb-4.mb-xl-0
+        .tarjeta-numerada.color-secundario.p-4.h-100
           .tarjeta-numerada__numero
             .h2 2
           p.text-center 
             b Beneficios compartidos
           p.text-center La distribución de ingresos es equitativa y colectiva.
 
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-acento-contenido.p-5
+      .col-md-6.col-lg-3.mb-4.mb-xl-0
+        .tarjeta-numerada.color-acento-contenido.p-4.h-100
           .tarjeta-numerada__numero
             .h2 3
           p.text-center 
             b Patrimonio vivo 
           p.text-center  Se preservan recursos naturales, culturales y tradiciones.
 
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-acento-botones.p-5
+      .col-md-6.col-lg-3.mb-4.mb-xl-0
+        .tarjeta-numerada.color-acento-botones.p-4.h-100
           .tarjeta-numerada__numero
             .h2 4
           p.text-center 
@@ -95,40 +95,40 @@
               img(src='@/assets/curso/Tema2/1.png', alt='')
           .col-md-6.mb-4.mb-md-0
             h5 Hito 1
-            p Ley 99, base ambiental y desarrollo sostenible.
-        
+            h5 Ley 99, base ambiental y desarrollo sostenible.
+            p Esta ley establece fundamentos para la protección del medio ambiente y el aprovechamiento sostenible de los recursos naturales, esenciales para el desarrollo de actividades turísticas responsables.
         .row(titulo="2012")
           .col-md-6.mb-4
             figure
               img(src='@/assets/curso/Tema2/2.png', alt='')
           .col-md-6.mb-4.mb-md-0
             h5 Hito 2
-            p Lineamientos de política de turismo comunitario.
-        
+            h5 Lineamientos de política de turismo comunitario.
+            p Estos lineamientos orientan el desarrollo del turismo comunitario en Colombia mediante la participación de las comunidades, el fortalecimiento de la organización local y el aprovechamiento responsable del territorio.
         .row(titulo="2020")
           .col-md-6.mb-4
             figure
               img(src='@/assets/curso/Tema2/3.png', alt='')
           .col-md-6.mb-4.mb-md-0
             h5 Hito 3
-            p Ley 2068, modifica la Ley General de Turismo.
-        
+            h5 Ley 2068, modifica la Ley General de Turismo.
+            p Esta ley fortalece la sostenibilidad, la formalización y la competitividad del sector turístico, promoviendo la conservación y protección de los destinos y atractivos turísticos.
         .row(titulo="2021")
           .col-md-6.mb-4
             figure
               img(src='@/assets/curso/Tema2/4.png', alt='')
           .col-md-6.mb-4.mb-md-0
             h5 Hito 4
-            p Política de turismo sostenible.
-        
+            h5 Política de turismo sostenible.
+            p Mediante el Decreto 646 de 2021 se adoptó la Política Pública de Turismo Sostenible «Unidos por la Naturaleza» orientada a fortalecer el desarrollo turístico y la conservación del patrimonio natural de Colombia.
         .row(titulo="2025")
           .col-md-6.mb-4
             figure
               img(src='@/assets/curso/Tema2/5.png', alt='')
           .col-md-6.mb-4.mb-md-0
             h5 Hito 5
-            p Actualización normativa vigente.
-        
+            h5 Actualización normativa vigente.
+            p Esta ley promueve las visitas a sitios culturales y turísticas, fomentar la participación de las comunidades locales y contempla planes para fortalecer el turismo comunitario y preservar saberes del territorio.
   
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-md-11.col-lg-12.col-12
@@ -234,15 +234,15 @@
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
       .col-lg-10
-        PasosA.color-acento-contenido.mb-0(tipo="n")
-          .row
+        PasosA.color-acento-contenido.mb-0(tipo="l")
+          .row.justify-content-center.align-items-center
             .col-md-9.mb-4.mb-md-0.col-lg-10
               h3 Comunidad
               p Actor principal en la gestión y toma de decisiones.
             .col-md-3.col-lg-2.col-6
               figure
                 img(src='@/assets/curso/Tema2/7.svg', alt='Texto que describa la imagen')
-          .row
+          .row.justify-content-center.align-items-center
             .col-md-3.col-lg-2.col-6.mb-3
               figure
                 img(src='@/assets/curso/Tema2/8.svg', alt='Texto que describa la imagen')
@@ -251,7 +251,7 @@
               h3.text-izq Territorio
               p.text-izq Espacio físico y cultural donde se desarrolla la actividad.
 
-          .row
+          .row.justify-content-center.align-items-center
             .col-md-8.mb-4.mb-md-0.col-lg-10
               h3 Patrimonio natural y cultural
               p Base de la oferta turística.
@@ -260,7 +260,7 @@
                 img(src='@/assets/curso/Tema2/9.svg', alt='Texto que describa la imagen')
     
 
-          .row
+          .row.justify-content-center.align-items-center
             .col-md-3.col-lg-2.col-6.mb-3
               figure
                 img(src='@/assets/curso/Tema2/10.svg', alt='Texto que describa la imagen')
@@ -268,7 +268,7 @@
               h3.text-izq Organización comunitaria
               p.text-izq Estructura de gestión y coordinación.
 
-          .row
+          .row.justify-content-center.align-items-center
             .col-md-8.mb-4.mb-md-0.col-lg-10
               h3 Servicios turísticos
               p Actividades y productos ofrecidos.
@@ -276,7 +276,7 @@
               figure
                 img(src='@/assets/curso/Tema2/11.svg', alt='Texto que describa la imagen')
           
-          .row
+          .row.justify-content-center.align-items-center
             .col-md-3.col-lg-2.col-6.mb-3
               figure
                 img(src='@/assets/curso/Tema2/12.svg', alt='Texto que describa la imagen')
@@ -572,7 +572,7 @@
           .tarjeta.bg9.text-center
             .p-4
               h5 Obtener registro mercantil vigente
-              p.mb-0 Tramitarlo ante la Cámara de Comercio de la jurisdicción donde esté ubicado el operador de turismo.
+              p.mb-0.text-izq Tramitarlo ante la Cámara de Comercio de la jurisdicción donde esté ubicado el operador de turismo.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -580,7 +580,7 @@
           .tarjeta.bg9.text-center
             .p-4
               h5 Tener la cédula del representante legal
-              p.mb-0 Documento de identidad vigente del responsable legal de la organización.
+              p.mb-0.text-izq Documento de identidad vigente del responsable legal de la organización.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -588,7 +588,7 @@
           .tarjeta.bg9.text-center
             .p-4
               h5 Ingresar a la plataforma RNT
-              p.mb-0 Acceder a rnt.confecamaras.co. El trámite es 100 % virtual y gratuito.
+              p.mb-0.text-izq Acceder a rnt.confecamaras.co. El trámite es 100 % virtual y gratuito.
 
     .row(data-aos="zoom-in-left")
       .col-md-6.mb-5.mb-md-0
@@ -597,7 +597,7 @@
           .tarjeta.bg9.text-center
             .p-4
               h5 Declarar información técnica y financiera
-              p.mb-0 Diligenciar los formularios con los datos de la organización y sus servicios.
+              p.mb-0.text-izq Diligenciar los formularios con los datos de la organización y sus servicios.
 
       .col-md-6
         .tarjeta-avatar
@@ -605,7 +605,7 @@
           .tarjeta.bg9.text-center
             .p-4
               h5 Cumplir los requisitos obligatorios
-              p.mb-0 Adherirse al código de conducta para la prevención de la Explotación Sexual Comercial de Niñas, Niños y Adolescentes (ESCNNA) y cumplir la norma técnica sectorial de sostenibilidad vigente.
+              p.mb-0.text-izq Adherirse al código de conducta para la prevención de la Explotación Sexual Comercial de Niñas, Niños y Adolescentes (ESCNNA) y cumplir la norma técnica sectorial de sostenibilidad vigente.
 
         
 

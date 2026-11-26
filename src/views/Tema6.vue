@@ -34,7 +34,7 @@
                 figure
                   img(src='@/assets/curso/Tema6/1.svg', alt='Texto que describa la imagen')          
             h3.text-center Innovación y creatividad 
-            p.text-center Capacidad de generar ideas nuevas y soluciones originales. 
+            p.text-izq Capacidad de generar ideas nuevas y soluciones originales. 
 
           .col-md.tarjeta.bg9.p-5
             .row.justify-content-center.mb-4
@@ -42,7 +42,7 @@
                 figure
                   img(src='@/assets/curso/Tema6/2.svg', alt='Texto que describa la imagen')          
             h3.text-center Identificación de oportunidades 
-            p.text-center Habilidad para reconocer necesidades del mercado y del territorio. 
+            p.text-izq Habilidad para reconocer necesidades del mercado y del territorio. 
 
           .col-md.tarjeta.bg10.p-5
             .row.justify-content-center.mb-4
@@ -50,7 +50,7 @@
                 figure
                   img(src='@/assets/curso/Tema6/3.svg', alt='Texto que describa la imagen')          
             h3.text-center Gestión de recursos 
-            p.text-center Uso eficiente del tiempo, el dinero y el talento humano. 
+            p.text-izq Uso eficiente del tiempo, el dinero y el talento humano. 
 
     .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
       .col-lg-12
@@ -61,7 +61,7 @@
                 figure
                   img(src='@/assets/curso/Tema6/4.svg', alt='Texto que describa la imagen')          
             h3.text-center.text-white Trabajo colaborativo 
-            p.text-center.text-white Capacidad de trabajar en equipo hacia objetivos comunes.
+            p.text-izq.text-white Capacidad de trabajar en equipo hacia objetivos comunes.
 
           .col-md.tarjeta.bg6.p-5
             .row.justify-content-center.mb-4
@@ -69,7 +69,7 @@
                 figure
                   img(src='@/assets/curso/Tema6/5.svg', alt='Texto que describa la imagen')          
             h3.text-center.text-white Enfoque sostenible   
-            p.text-center.text-white Orientación hacia prácticas responsables con el ambiente y la comunidad.
+            p.text-izq.text-white Orientación hacia prácticas responsables con el ambiente y la comunidad.
 
           .col-md.tarjeta.bg7.p-5
             .row.justify-content-center.mb-4
@@ -77,7 +77,7 @@
                 figure
                   img(src='@/assets/curso/Tema6/6.svg', alt='Texto que describa la imagen')          
             h3.text-center Responsabilidad social  
-            p.text-center Compromiso con el bienestar colectivo y el territorio.
+            p.text-izq Compromiso con el bienestar colectivo y el territorio.
     p El emprendimiento en turismo comunitario no es solo un negocio individual. Es una apuesta colectiva que combina innovación, responsabilidad social y sostenibilidad para generar bienestar en todo el territorio.
     .tarjeta.bg9.p-4.mb-2(data-aos="zoom-in-left")
       .row.justify-content-around.align-items-center
@@ -111,14 +111,14 @@
     .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
       .col-lg-10
         PasosA.color-acento-contenido.mb-5(tipo="n")
-          .row
+          .row.justify-content-center.align-items-center
             .col-md-9.mb-4.mb-md-0.col-lg-10
               h3 Registro en Cámara de Comercio
               p Obtener el registro mercantil que acredita la existencia legal de la organización.
             .col-md-3.col-lg-2.col-6
               figure
                 img(src='@/assets/curso/Tema6/paso1.svg', alt='Texto que describa la imagen')
-          .row
+          .row.justify-content-center.align-items-center
             .col-md-3.col-lg-2.col-6.mb-3
               figure
                 img(src='@/assets/curso/Tema6/paso2.svg', alt='Texto que describa la imagen')
@@ -127,7 +127,7 @@
               h3.text-izq Inscripción en el RUT
               p.text-izq Registrarse ante la DIAN para obtener el número de identificación tributaria.
 
-          .row
+          .row.justify-content-center.align-items-center
             .col-md-8.mb-4.mb-md-0.col-lg-10
               h3 Registro Nacional de Turismo (RNT)
               p Tramitar el RNT en rnt.confecamaras.co. El proceso es virtual y gratuito.
@@ -136,7 +136,7 @@
                 img(src='@/assets/curso/Tema6/paso3.svg', alt='Texto que describa la imagen')
     
 
-          .row
+          .row.justify-content-center.align-items-center
             .col-md-3.col-lg-2.col-6.mb-3
               figure
                 img(src='@/assets/curso/Tema6/paso4.svg', alt='Texto que describa la imagen')
@@ -144,7 +144,7 @@
               h3.text-izq Permisos sanitarios y ambientales
               p.text-izq Obtener los permisos requeridos según el tipo de actividad turística y el territorio.
 
-          .row
+          .row.justify-content-center.align-items-center
             .col-md-8.mb-4.mb-md-0.col-lg-10
               h3 Afiliación a seguridad social
               p Garantizar la afiliación de todos los colaboradores al sistema de seguridad social.

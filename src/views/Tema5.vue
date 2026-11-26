@@ -29,7 +29,7 @@
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/Tema5/fig1.svg', alt='Diagrama interactivo con seis activos patrimoniales del turismo comunitario distribuidos alrededor de un centro. Activos culturales: tradiciones, expresiones artísticas y gastronomía. Activos físicos: infraestructura, equipamientos y vías de acceso. Activos sociales: organización comunitaria, redes de cooperación y liderazgo local. Activos humanos: conocimientos, habilidades y experiencias. Activos económicos: recursos financieros, actividades productivas y oportunidades de ingresos. Activos ambientales: ecosistemas, paisajes y biodiversidad.')
-      .tarjeta.row.img-infog.bg4.align-items-center.p-4(numero="2" x="50%" y="12%")
+      .tarjeta.row.img-infog.bg4.align-items-center.p-4(numero="2" x="50%" y="10%")
         .col-md-12.col-12.px-lg-4.px-3.py-1.contenido.text-white
           h5 Activos Humanos
           p Conocimientos, habilidades, experiencias.
@@ -37,15 +37,15 @@
         .col-md-12.col-12.px-lg-4.px-3.py-1.contenido.text-white
           h5 Sociales
           p Organización comunitaria, redes de cooperación, liderazgo local.
-      .tarjeta.row.img-infog.bg4.align-items-center.p-4(numero="3" x="84%" y="28%")
+      .tarjeta.row.img-infog.bg4.align-items-center.p-4(numero="3" x="84%" y="27%")
         .col-md-12.col-12.px-lg-4.px-3.py-1.contenido.text-white
           h5 Activos Físicos
           p Infraestructura, equipamientos, vías de acceso.
-      .tarjeta.row.img-infog.bg4.align-items-center.p-4(numero="1" x="16%" y="29%")
+      .tarjeta.row.img-infog.bg4.align-items-center.p-4(numero="1" x="16%" y="28%")
         .col-md-12.col-12.px-lg-4.px-3.py-1.contenido.text-white
           h5 Activos Culturales
           p Tradiciones, expresiones artísticas, gastronomía.
-      .tarjeta.row.img-infog.bg4.align-items-center.p-4(numero="4" x="8%" y="66%")
+      .tarjeta.row.img-infog.bg4.align-items-center.p-4(numero="4" x="8%" y="65%")
         .col-md-12.col-12.px-lg-4.px-3.py-1.contenido.text-white
           h5 Activos Económicos
           p Recursos financieros, actividades productivas, oportunidades de ingresos.
@@ -80,32 +80,32 @@
     SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in-left")
       .tarjeta.bg10.p-4
         .row.justify-content-center.mb-3
-          .col-6.col-md-4
+          .col-6.col-md-4.col-lg-7
             img(src='@/assets/curso/Tema5/1.svg' alt='')
-        p.text-center Tradiciones y festividades comunitarias.
+        p.text-izq Tradiciones y festividades comunitarias.
       .tarjeta.bg10.p-4
         .row.justify-content-center.mb-3
-          .col-6.col-md-4
+          .col-6.col-md-4.col-lg-7
             img(src='@/assets/curso/Tema5/2.svg' alt='')
-        p.text-center Expresiones artísticas: música, danza, artesanías.
+        p.text-izq Expresiones artísticas: música, danza, artesanías.
 
       .tarjeta.bg10.p-4
         .row.justify-content-center.mb-3
-          .col-6.col-md-4
+          .col-6.col-md-4.col-lg-7
             img(src='@/assets/curso/Tema5/3.svg' alt='')
-        p.text-center Gastronomía local y saberes culinarios.
+        p.text-izq Gastronomía local y saberes culinarios.
 
       .tarjeta.bg10.p-4
         .row.justify-content-center.mb-3
-          .col-6.col-md-4
+          .col-6.col-md-4.col-lg-7
             img(src='@/assets/curso/Tema5/4.svg' alt='')
-        p.text-center Saberes ancestrales y prácticas tradicionales.
+        p.text-izq Saberes ancestrales y prácticas tradicionales.
 
       .tarjeta.bg10.p-4
         .row.justify-content-center.mb-3
-          .col-6.col-md-4
+          .col-6.col-md-4.col-lg-7
             img(src='@/assets/curso/Tema5/5.svg' alt='')
-        p.text-center Patrimonio histórico, arqueológico y arquitectónico.
+        p.text-izq Patrimonio histórico, arqueológico y arquitectónico.
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-md-11.col-lg-12.col-12
@@ -127,20 +127,20 @@
 
     .row(data-aos="zoom-in-left")
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-        .tarjeta--boton.color-primario.p-4.h-100.w-100
-          p.text-center.mb-0.text-white Infraestructura de alojamiento y alimentación.
+        .tarjeta--boton.color-primario.p-3.h-100.w-100
+          p.text-izq.mb-0.text-white.mb-0 Infraestructura de alojamiento y alimentación.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-        .tarjeta--boton.color-primario.p-4.h-100.w-100
-          p.text-center.mb-0.text-white Vías de acceso y conectividad.
+        .tarjeta--boton.color-primario.p-3.h-100.w-100
+          p.text-izq.mb-0.text-white.mb-0 Vías de acceso y conectividad.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-        .tarjeta--boton.color-primario.p-4.h-100.w-100
-          p.text-center.mb-0.text-white Equipamientos comunitarios y espacios de encuentro.
+        .tarjeta--boton.color-primario.p-3.h-100.w-100
+          p.text-izq.mb-0.text-white Equipamientos comunitarios y espacios de encuentro.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-        .tarjeta--boton.color-primario.p-4.h-100.w-100
-          p.text-center.mb-0.text-white Señalización turística y accesibilidad universal.
+        .tarjeta--boton.color-primario.p-3.h-100.w-100
+          p.text-izq.mb-0.text-white Señalización turística y accesibilidad universal.
      
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-md-11.col-lg-12.col-12
@@ -159,20 +159,20 @@
     
     .row(data-aos="zoom-in-left")
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-        .tarjeta--boton.color-primario.p-4.h-100.w-100
-          p.text-center.mb-0.text-white Organizaciones comunitarias activas.
+        .tarjeta--boton.color-primario.p-3.h-100.w-100
+          p.text-izq.mb-0.text-white Organizaciones comunitarias activas.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-        .tarjeta--boton.color-primario.p-4.h-100.w-100
-          p.text-center.mb-0.text-white Redes de cooperación entre actores del territorio.
+        .tarjeta--boton.color-primario.p-3.h-100.w-100
+          p.text-izq.mb-0.text-white Redes de cooperación entre actores del territorio.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-        .tarjeta--boton.color-primario.p-4.h-100.w-100
-          p.text-center.mb-0.text-white Liderazgo local y capacidad de gestión colectiva.
+        .tarjeta--boton.color-primario.p-3.h-100.w-100
+          p.text-izq.mb-0.text-white Liderazgo local y capacidad de gestión colectiva.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-        .tarjeta--boton.color-primario.p-4.h-100.w-100
-          p.text-center.mb-0.text-white Participación social en la toma de decisiones.
+        .tarjeta--boton.color-primario.p-3.h-100.w-100
+          p.text-izq.mb-0.text-white Participación social en la toma de decisiones.
 
 
     separador
@@ -195,20 +195,20 @@
 
     .row(data-aos="zoom-in-left")
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-        .tarjeta--boton.color-primario.p-4.h-100.w-100
-          p.text-center.mb-0.text-white Conocimientos técnicos en servicios turísticos.
+        .tarjeta--boton.color-primario.p-3.h-100.w-100
+          p.text-izq.mb-0.text-white Conocimientos técnicos en servicios turísticos.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-        .tarjeta--boton.color-primario.p-4.h-100.w-100
-          p.text-center.mb-0.text-white Habilidades en guianza, cocina y artesanías.
+        .tarjeta--boton.color-primario.p-3.h-100.w-100
+          p.text-izq.mb-0.text-white Habilidades en guianza, cocina y artesanías.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-        .tarjeta--boton.color-primario.p-4.h-100.w-100
-          p.text-center.mb-0.text-white Experiencias en gestión comunitaria.
+        .tarjeta--boton.color-primario.p-3.h-100.w-100
+          p.text-izq.mb-0.text-white Experiencias en gestión comunitaria.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-        .tarjeta--boton.color-primario.p-4.h-100.w-100
-          p.text-center.mb-0.text-white Capacidad de liderazgo y emprendimiento.
+        .tarjeta--boton.color-primario.p-3.h-100.w-100
+          p.text-izq.mb-0.text-white Capacidad de liderazgo y emprendimiento.
     
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-md-11.col-lg-12.col-12
@@ -229,20 +229,20 @@
 
     .row(data-aos="zoom-in-left")
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-        .tarjeta--boton.color-primario.p-4.h-100.w-100
-          p.text-center.mb-0.text-white Recursos financieros comunitarios y acceso a crédito.
+        .tarjeta--boton.color-primario.p-3.h-100.w-100
+          p.text-izq.mb-0.text-white Recursos financieros comunitarios y acceso a crédito.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-        .tarjeta--boton.color-primario.p-4.h-100.w-100
-          p.text-center.mb-0.text-white Actividades productivas vinculadas al turismo.
+        .tarjeta--boton.color-primario.p-3.h-100.w-100
+          p.text-izq.mb-0.text-white Actividades productivas vinculadas al turismo.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-        .tarjeta--boton.color-primario.p-4.h-100.w-100
-          p.text-center.mb-0.text-white Oportunidades de generación de ingresos diversificados.
+        .tarjeta--boton.color-primario.p-3.h-100.w-100
+          p.text-izq.mb-0.text-white Oportunidades de generación de ingresos diversificados.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-        .tarjeta--boton.color-primario.p-4.h-100.w-100
-          p.text-center.mb-0.text-white Fondos comunitarios y mecanismos de reinversión local.
+        .tarjeta--boton.color-primario.p-3.h-100.w-100
+          p.text-izq.mb-0.text-white Fondos comunitarios y mecanismos de reinversión local.
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-md-11.col-lg-12.col-12
@@ -265,20 +265,20 @@
 
     .row.mb-4(data-aos="zoom-in-left")
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-        .tarjeta--boton.color-primario.p-4.h-100.w-100
-          p.text-center.mb-0.text-white Ecosistemas naturales conservados.
+        .tarjeta--boton.color-primario.p-3.h-100.w-100
+          p.text-izq.mb-0.text-white Ecosistemas naturales conservados.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-        .tarjeta--boton.color-primario.p-4.h-100.w-100
-          p.text-center.mb-0.text-white Paisajes y recursos hídricos.
+        .tarjeta--boton.color-primario.p-3.h-100.w-100
+          p.text-izq.mb-0.text-white Paisajes y recursos hídricos.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-        .tarjeta--boton.color-primario.p-4.h-100.w-100
-          p.text-center.mb-0.text-white Biodiversidad: flora y fauna.
+        .tarjeta--boton.color-primario.p-3.h-100.w-100
+          p.text-izq.mb-0.text-white Biodiversidad: flora y fauna.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
-        .tarjeta--boton.color-primario.p-4.h-100.w-100
-          p.text-center.mb-0.text-white Recursos naturales renovables del territorio.
+        .tarjeta--boton.color-primario.p-3.h-100.w-100
+          p.text-izq.mb-0.text-white Recursos naturales renovables del territorio.
 
     .cajon.color-secundario.p-4.mb-4(data-aos="zoom-in-left")
       h5 Buena práctica

@@ -12,11 +12,9 @@
           :style="{'background-image': `url(${require('@/assets/curso/Tema4/img01.png')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 Para el desarrollo del turismo comunitario es fundamental que las comunidades se organicen para la operación de los diferentes servicios turísticos que pueden ofrecer. Existen diversas formas de gestión que permiten estructurar esta organización de manera formal y sostenible.
+          p.mb-0 Para el desarrollo del turismo comunitario es fundamental que las comunidades se organicen para la operación de los diferentes servicios turísticos que pueden ofrecer. Existen diversas formas de gestión que permiten estructurar esta organización de manera formal y sostenible. A continuación, se relacionan los principales tipos de gestión para el turismo comunitario: 
             br
-            br
-    p.mb-4 A continuación se relacionan los principales tipos:
-    
+
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-md-11.col-lg-12.col-12
         .d-flex.align-items-center.mt-4
